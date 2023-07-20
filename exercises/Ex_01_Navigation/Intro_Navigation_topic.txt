@@ -1,0 +1,25 @@
+Induction
+high level
+
+Basic Web Programming
+HTML 
+CSS
+	Bootstrap
+	Responsive Design
+Javascript
+	BOM
+	DOM
+	
+	
+How web works?
+
+Static pages -> simple navigation
+Dynamic pages
+pre
+Table element
+data
+proper alingment
+
+
+
+
