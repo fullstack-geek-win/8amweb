@@ -1,19 +1,25 @@
-body{
-    text-align: center;
-    background-color: beige;
-    
-    
+h1{
+    color: brown;
+    text-align:center;
 }
+
 table{
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black ;
+    width: 50%;
 }
-td{
-    color: blue;
-    text-align: left;
 
+
+body{
+    text-align: left;
 }
+
+td{
+    color: #ff0f0f;;
+    font-family: Arial;
+}
+
 th{
-    color: red;
+    color:#ff0f0f;
+    font-family: Arial;
 }
