@@ -3,161 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MENU</title>
-    <style>
-        body {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color:blue;
-}
-
-.main{
-    color: red;
-    width: 66%;
-    font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: 65%;
-}
-
-table {
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid black;
-}
-
-td{
-    color: blue;
-    text-align: right;
-    width: 50%;
-    font-size: large;
-}
-th{
-    color: blue;
-    text-align: left;
-    width:50%;
-}   
-
-    </style>
+    <title>XYZ Hotel</title>
+    <link rel="icon" href="./image/xyz.jpg">
+    <link rel="stylesheet" href="./CSS/menustyle.css">
 </head>
 <body >
-    <h1>Hotel Menu</h1>
+    <h1>Welcome To XYZ Hotel</h1>
     <table background="./image/download.jpg">
-        <tr> 
-            <td class="main">SOUPS</tr>
-        </tr>
-        <tr >
-            <th>French Onion Soup</td>
-            <td>80.00</td>
+        <tr>
+            <th CLASS="MENU" colspan="3">MENU</th>
         </tr>
         <tr>
-            <th>Plain S/C Soup</td>
-            <td>75.00</td>
+            <th colspan="3">SOUPS</th>
+        </tr>   
+        <tr>
+            <td class="item">Veg Soup</td>
+            <td>₹60</td>
+            <td><img src="./image/vs.jpg" alt="Veg Soup" width="50" height="50"></td>
         </tr>
         <tr>
-            <th>Sweet Corn Veg. Soup</td>
-            <td>80.00</td>
-        </tr>
-            <th>Sweet Corn Mushroom Soup</td>
-            <td>100.00</td>
-        <tr>
-            <th>Sweet Corn Noodles Soup</td>
-            <td>100.00</td>
+            <td class="item">Chicken Soup</td>
+            <td>₹120</td>
+            <td><img src="./image/cs.jpg" alt="Chicken Soup" width="50" height="50"></td>
         </tr>
         <tr>
-            <th>Tomato Soup</td>
-            <td>60.00</td>
+            <td class="item">Mutton Soup</td>
+            <td>₹125</td>
+            <td><img src="./image/ms.jpg" alt="Mutton Soup" width="50" height="50"></td>
         </tr>
         <tr>
-            <th>Muthamizh Special Soup </th>
-            <td>100.00</td>
+            <th colspan="3" >PAPPAD</th>
         </tr>
         <tr>
-            <th>Veg. Soup </th>
-            <td>60.00</td>
+            <td class="item">Plain Pappad</td>
+            <td>₹10</td>
+            <td><img src="./image/PP.jpg" alt="Plain Pappad" width="50" height="50"></td>
         </tr>
         <tr>
-            <th>Veg. Clear Soup </th>
-            <td>70.00</td>
+            <td class="item">Masala Pappad</td>
+            <td>₹20</td>
+            <td><img src="./image/mP.jpg" alt="Masala Pappad" width="50" height="50"></td>
         </tr>
         <tr>
-            <th>Mushroom Soup </th>
-            <td>80.00</td>
+            <td class="item">Fried Pappad</td>
+            <td>₹10</td>
+            <td><img src="./image/fP.jpg" alt="Fried Pappad" width="50" height="50"></td>
         </tr>
         <tr>
-            <th>Pepper Soup </th>
-            <td>100.00</td>
+            <th colspan="3">SALAD</th>
         </tr>
         <tr>
-            <th>Mirudhania Soup </th>
-            <td>100.00</td>
+            <td class="item">Cucumber Salad</td>
+            <td>₹25</td>
+            <td><img src="./image/cums.jpg" alt="Cucumber Salad" width="50" height="50"></td>
         </tr>
         <tr>
-            <th>Veg.Hot.N-Sour Soup </th>
-            <td>100.00</td>
+            <td class="item">Carrot Salad</td>
+            <td>₹50</td>
+            <td><img src="./image/CARS.jpg" alt="Carrot Salad" width="50" height="50"></td>
         </tr>
         <tr>
-            <th>Veg.Monchow Soup </th>
-            <td>100.00</td>
-        </tr>
-        <tr>
-            <th>Baby Corn Soup </th>
-            <td>80.00</td>
-        </tr>
-        <tr>
-            <th>Baby Corn Clear Soup </th>
-            <td>75.00</td>
-        </tr>
-        <tr>
-            <th>Baby Sweet Corn Soup </th>
-            <td>85.00</td>
-        </tr>
-        <tr>
-            <th>Palak Soup </th>
-            <td>70.00</td>
-        </tr>
-        <td class="main">PAPPADS</td>
-        <tr>
-            <th>Roasted Pappad</th>
-            <td>35.00</td>
-        </tr>
-        <tr>
-            <th>Fried Pappad</th>
-            <td>45.00</td>
-        </tr>
-        <tr>
-            <th>Masala Pappad</th>
-            <td>50.00</td>
-        </tr>
-        <tr>
-            <th>Fried Masala Pappad</th>
-            <td>55.00</td>
-        </tr>
-        <tr>
-            <th>Fried Spl. Pappad</th>
-            <td>70.00</td>
-        </tr>
-        <tr>
-            <th>Spl.Masala Pappad</th>
-            <td>70.00</td>
-        </tr>
-        <td class="main">SALADS</td>
-        <tr>
-            <th>Cucumber Salad</th>
-            <td>60.00</td>
-        </tr>
-        <tr>
-            <th>Carrot/Tomato Salad</th>
-            <td>60.00</td>
-        </tr>
-        <tr>
-            <th>Onion Salad</th>
-            <td>60.00</td>
-        </tr>
-        <tr>
-            <th>Veg.Salad</th>
-            <td>60.00</td>
-        </tr>
+            <td class="item">Onion Salad</td>
+            <td>₹30</td>
+            <td><img src="./image/ONS.jpg" alt="Onion Salad" width="50" height="50"></td>
+        </tr>   
     </table>
 </body>
 </html>
