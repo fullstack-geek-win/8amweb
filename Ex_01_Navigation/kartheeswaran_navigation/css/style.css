@@ -1,0 +1,44 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+td {
+    text-align: left;
+}
+
+.menu {
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: goldenrod
+}
+
+.menu td {
+    background-color: aqua;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+a:active {
+    color: palevioletred;
+}
+
+a:hover {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
