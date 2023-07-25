@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: 5rem
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    border: 2px solid black;    
+}
+
+th{
+    text-align: 60%;
+    color: rgb(73, 11, 11);
+    font-size:02rem;
+    font-weight: bolder;
+    font-style:initial;
+}
+.item{
+    text-align: start ;
+    color: blue;
+    font-size:02rem;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+td{
+    text-align: left;
+    color: blue;
+    font-size:02rem;
+    font-weight: bolder;
+    font-style: normal;
+}
+.MENU{
+    color: rgb(11, 73, 25);
+    font-size:03rem;
+    font-weight: bolder;
+    font-style:initial;
+}
