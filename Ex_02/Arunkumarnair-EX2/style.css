@@ -1,0 +1,19 @@
+table{
+    background-image: url(./images/back.jpg);
+    width: 30%;
+}
+h1{
+    text-align: center;
+    color: #951C45;
+}
+.pappads, .salads, .soups{
+    width: 100%;
+}
+.yummy{
+   margin-left: auto;
+   margin-right: auto;
+}
+td{
+    color: #17103E;
+    font-weight: bold;
+}
