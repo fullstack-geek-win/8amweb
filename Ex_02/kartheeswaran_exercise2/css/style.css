@@ -1,0 +1,35 @@
+table {
+    background-image: url(/images/bgmenu.jpg);
+    width: 30%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.font1,
+.font2 {
+    font-size: larger;
+    color: black;
+
+}
+
+.hotel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tiffin,
+.lunch,
+.night {
+    width: 100%;
+    color: #ee0707;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.black1,
+.black2,
+.black3 {
+    color: black;
+    font-weight: bold;
+}
