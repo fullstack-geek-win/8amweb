@@ -1,0 +1,45 @@
+td {
+    text-align: left;
+    font-size: x-large;
+}
+
+table {
+    align-content: center;
+
+}
+
+h1 {
+    background-color: blue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+footer {
+    text-align: center;
+    font-size: x-large;
+    background-color: brown;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    background-color: chartreuse;
+    color: black;
+}
+
+.menu {
+    margin-right: auto;
+    margin-left: auto;
+    
+
+
+}
+
+.receipe {
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
