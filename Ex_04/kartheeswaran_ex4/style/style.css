@@ -1,0 +1,34 @@
+table {
+    border: 5px solid rgb(0, 0, 0);
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+td {
+    border: 2px solid black;
+    padding-right: cm;
+    width: 100;
+    height: 60px;
+    ;
+}
+
+table thead td {
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+.day{
+    font-weight: bolder;
+    background-color: rgb(129, 104, 153);
+    
+}
+.lunch{
+    font-weight:bolder;
+    background-color: aliceblue;
+}
+.time{
+    background-color: rgb(96, 70, 121);
+}
