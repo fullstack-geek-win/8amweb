@@ -1,0 +1,32 @@
+table{
+    
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    float: auto;
+}
+td{
+    border: 5px solid black;
+}
+header{
+    border: 5px solid black;
+    
+}
+tr{
+    color: blue;
+}
+#head{
+    background-color: orangered;
+    color:brown;
+}
+.well{
+    text-decoration-line: underline;
+}
+tr:nth-child(odd){
+    background-color: darkslateblue;
+}
+tr:nth-child(even){
+    background-size: contain;
+    backface-visibility: inherit;
+    background-color: fuchsia;
+}
