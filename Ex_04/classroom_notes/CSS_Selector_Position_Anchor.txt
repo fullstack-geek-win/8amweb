@@ -1,0 +1,81 @@
+CSS - Selector, Position, Anchor link
+=====================================
+1. External CSS (in separate .css file)
+2. Internal CSS (Head element)
+3. Inline CSS (in HTML element)
+
+syntax
+------
+HTML Element h1, p table
+class .
+ID #
+selector {
+   property1: value1;
+   property2: value2;
+}
+
+example
+-------
+p {
+	background-color: red;
+	font-family: sans-serif;
+	color: yellow;
+}
+
+Selector
+--------
+* - Universal selector
+html tags - h1 p img - Element selector
+. - class selector -> apply generic style across elements
+# - ID selector -> identical
+
+Relating multiple elements
+---------------------------
+div>p - child selector
+
+div a - Descendant (child of child) selector
+h1~h4 - Sibling selector (any similer child element)
+h1+h2 - Adjacent Sibling selector (next similer child element)
+.center -> same class works on different element
+table.center
+h1.center
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+h1.center {
+	text-align: center;
+}
+
+Prioritize Style
+----------------
+h1, h2 - h2 -> apply last Style
+	- except specific Rule h1+h2
+	- !important to override
+	
+Inheritance style
+-----------------
+h1 -> p -> body -> *
+
+Position
+--------
+Static Positioning
+Relative Positioning
+Absolute Positioning
+Fixed Positioning
+Sticky Position 
+
+Anchor tag style
+----------------
+a
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - active link
+ 
+
+
+
+
+
+

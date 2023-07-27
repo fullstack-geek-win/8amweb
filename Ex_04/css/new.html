@@ -1,0 +1,123 @@
+[08:43] Dhinesh (Guest)
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>CSS Table Odd Even Styling</title>
+
+    <style>
+
+        table {
+
+            width: 100%;
+
+            border-collapse: collapse;
+
+        }
+
+ 
+
+        th, td {
+
+            padding: 8px;
+
+            text-align: left;
+
+        }
+
+ 
+
+        th {
+
+            background-color: #f2f2f2;
+
+            text-align: center;
+
+            text-transform: uppercase;
+
+        }
+
+ 
+
+        tr:nth-child(odd) {
+
+            background-color: red; /* Apply style to odd rows */
+
+        }
+
+ 
+
+        tr:nth-child(even) {
+
+            background-color: blue; /* Apply style to even rows */
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+
+        <tr>
+
+            <th>Column 1</th>
+
+            <th>Column 2</th>
+
+            <th>Column 3</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Row 1</td>
+
+            <td>Row 1</td>
+
+            <td>Row 1</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Row 2</td>
+
+            <td>Row 2</td>
+
+            <td>Row 2</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Row 3</td>
+
+            <td>Row 3</td>
+
+            <td>Row 3</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Row 4</td>
+
+            <td>Row 4</td>
+
+            <td>Row 4</td>
+
+        </tr>
+
+        <!-- Add more rows as needed -->
+
+    </table>
+
+</body>
+
+</html>

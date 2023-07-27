@@ -1,0 +1,63 @@
+/* thead td {
+    background-color: steelblue;
+    color: red; 
+}
+tbody td {
+    background-color: white;
+   
+    text-align: center;
+}
+table {
+    color: white;  
+    border: 1px solid black;
+}
+td {
+    color: green;
+    border: 1px solid black;
+}
+table {
+    color:blue;
+} */
+
+
+/* Apply style to odd rows */
+/* tr:nth-child(odd) 
+{ 
+    background-color: red; 
+}  */
+/* Apply style to even rows */
+/* tr:nth-child(even) 
+{ 
+    background-color: blue;  
+}
+
+* {
+    background-color:darksalmon;
+}
+
+.header {
+    background-color: blue;  
+}
+
+#header1 {
+    background-color: blue;  
+} */
+
+/* table,
+th,
+td {
+    border: 5px solid black;
+    
+    
+} */
+
+table, tr, td {
+    border: 5px solid white;
+
+}
+
+
+
+p {
+    text-align: justify;
+}

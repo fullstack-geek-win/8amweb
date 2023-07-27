@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 p{
+            color: green;
+        }
+
+        .div2>p{
+            color: red;
+        }
+
+        table.center {
+            padding-left: auto;
+            padding-right: auto;
+        }
+        p.center {
+            text-align: center;
+        }
+        /* div>p {
+            color: red;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <!-- div>p child -->
+        <p>Lorem ipsum dolor sit amet.</p>
+        <table class="center">
+            <tr>
+                <td>
+                    <!-- div p Descendant -->
+                    <p class="center">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, eveniet!
+                        <a href="www.google.co.in">Google Page</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="div2">
+        <!-- div>p child -->
+        <p>Lorem ipsum dolor sit amet.</p>
+        <table>
+            <tr>
+                <td>
+                    <!-- div p Descendant -->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, eveniet!
+                        <a href="www.google.co.in">Google Page</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

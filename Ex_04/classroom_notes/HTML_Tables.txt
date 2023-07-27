@@ -1,0 +1,64 @@
+Table Elements & Attributes
+===========================
+CSS Implementation
+------------------
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+border: 1px solid black; -> width style color
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 5px;
+}
+
+table {
+border-width: 1px 2px 3px 4px; /* top, right, bottom, left */
+border-style: solid dashed dotted double; /* top, right, bottom, left */
+border-color: red green blue yellow; /* top, right, bottom, left */
+
+}
+
+Style
+-----
+solid, dashed, dotted, double, groove, ridge, inset and outset
+
+border-collapse: collapse|separate; -> data fit to the table 
+
+float:right|left|top|bottom -> float (keep aside) other element's direction
+
+<thead> & <th>
+--------------
+<th> tag is used to give header in the cell of a table in HTML whereas 
+<thead> tag is used to give the header of a group of a table
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>john.doe@example.com</td>
+    <td>123-45-678</td>
+  </tr>
+</table>
+
+<table>
+	<thead>
+		<tr><td>Name</td></tr>
+		<tr><td>Email</td></tr>
+		<tr><td>Phone</td></tr>
+	</thead>
+</table>
+<thead>, <tbody>, and <tfoot>
+
+colspan
+
+rowspan
