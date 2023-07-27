@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Css Style </title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 5px solid darkgreen;
+            border-collapse: collapse;
+            background-color: bisque;
+            width: 30%;
+        }
+
+        td {
+            text-align: left;
+        }
+
+        h1 {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+
+        <h1> Invoice</h1>
+        <!--thead-->
+
+        <tr>
+            <td colspan="2"><b>Purchase order:987654321</b></td>
+            <td colspan="2"><b>Date:27.07.2023</b></td>
+        </tr>
+
+        <tbody>
+            <tr>
+                <td colspan="2"><b>Vendor:</b>
+                    <p>ABC XYZ limited,<br>1st Street,<br>Bangalore-852004.</p>
+                </td>
+
+                <td colspan="2"><b>Ship To:</b>
+                    <p> Raghu,<br>Periyar Nagar,<br>Chennai-600008.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Qty</b></td>
+                <td><b>Item Code</b></td>
+                <td><b>Description</b></td>
+                <td><b>Unit Price</b></td>
+
+            </tr>
+            <tr>
+
+                <td>100</td>
+                <td>IABCDE</td>
+                <td>Pen</td>
+                <td>20.00</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>IN877</td>
+                <td>Notebooks</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>500</td>
+                <td>IP8956</td>
+                <td>Pencils</td>
+                <td>70.00</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">Subtotal</td>
+                <td colspan="2">190.00</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">GST</td>
+                <td>5%</td>
+                <td>9.50</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">Grand Total</td>
+                <td>$199.50</td>
+            </tr>
+ </table>
+</body>

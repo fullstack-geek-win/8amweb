@@ -1,0 +1,15 @@
+
+table,tr,td{border: 3px solid darkgreen;
+border-collapse: collapse;
+background-color: bisque;
+width:auto;}
+thead td{color:darkred;
+text-align: center;}
+tbody td{background-color:aliceblue;
+color: darkmagenta;}
+p{text-align: justify;width:80%;
+padding-left: 20px;
+padding-right: 20px;}
+  table{float: left;}  
+  
+  
