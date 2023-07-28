@@ -1,0 +1,53 @@
+HTML Form, Control & Validations
+================================
+
+Static pages with simple navigation using anchor tag
+
+Dynamic pages - runtime
+
+Exercise - simple navigation
+javascript
+
+URL
+http://127.0.0.1:5500/landingpage.html?
+
+<input type="text" name="empid" value="E001">
+http://127.0.0.1:5500/landingpage.html?empid=E001
+
+http://127.0.0.1:5500/landingpage.html?empid=E001&password=King%40123
+
+http -> 
+://
+127.0.0.1 -> local system / laptop -> IP address
+:5500 -> port - google search
+:5600 -> google maps
+:7600 -> google drive
+
+/index.html
+/landingpage.html
+
+querystring
+?
+
+
+https -> securely
+	- SSL certificate
+	
+Control
+-------
+Label
+Textbox
+checkbox
+radio
+dropdown
+textarea
+
+Google Gmail account creation
+-----------------------------
+1st page
+Firstname
+lastname
+
+2nd page
+DOB type=date
+Gender select->option
