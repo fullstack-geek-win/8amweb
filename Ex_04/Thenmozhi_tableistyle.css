@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    background-color: blueviolet;
+}
+body{
+    background-color: aquamarine;
+}
+table{
+     border: 1px solid black;
+     border-collapse: collapse;
+     border-spacing: 5px;
+     padding: 5px;
+     text-align: center;
+     border-color: brown;
+     float: left;
+     
+}
+td{
+    border: 1px solid black;
+    color: blueviolet;
+    background-color: bisque;
+    
+    }
+    
+    
+th{
+        border: 1px solid black;
+        color: red;
+    }
+
+
+p{
+    text-align: justify;
+}
+
+    
