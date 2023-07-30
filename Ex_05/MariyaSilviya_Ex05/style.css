@@ -1,0 +1,21 @@
+body{
+    padding-top: 100px;
+    padding-left: 450px;
+    padding-right: 450px;
+    background-image: url(./image/photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+;
+}
+form{
+    border: 5px solid;
+   padding-left: 20px;
+   padding-bottom: 20px;
+}
+h1{
+    color:blue;
+}
+form{
+    background-color:aliceblue;
+}
