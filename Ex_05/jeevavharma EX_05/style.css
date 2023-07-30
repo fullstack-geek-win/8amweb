@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background: cornsilk;
+
+}
+.container{
+    padding: 90px;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-bottom: 25%;
+    margin-right: 25%;
+    width: 100%;
+    max-width: 900px;
+    max-height: 1000vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 1px 2px 2px rgba(1px, 1px, 1px,0.1);
+
+}
+.Signup h2{
+    font-size: 30px;
+}
+.Signup p{
+    font-size: 20px ;
+    margin-bottom: 10px;
+}
+
+.Signup input{
+    background-color: lawngreen;
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 0 0 white;
+
+    transition:.3s ;
+
+}
+.Signup input:hover{
+    color:coral;
+    box-shadow: inset 150px 0 0 0 0 white;
+}
+
+
+.col-right{
+    width: 100%;
+    margin: 0;
+    
+}
+    
+.login h2{
+    font-size: 30px;
+    
+}
+.login p{
+    font-size: 20px;
+    
+}
+.login input{
+    background-color: lawngreen;
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 0 0 white;
+
+    transition:.3s ;
+
+}
+.login input:hover{
+    color:coral;
+    box-shadow: inset 150px 0 0 0 0 white;
+}
+.login form p{
+    text-decoration: none;
+}
