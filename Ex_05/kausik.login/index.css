@@ -1,0 +1,45 @@
+table{
+    float: left;
+}
+img{
+    float: right;
+
+}
+.btn{
+    size: 100px;
+    color: blue;
+    text-align: center;
+    background-color:black;
+    float: right;
+}
+footer{
+    text-align: center;
+    background-color:black;
+    color: white;
+
+}
+header{
+    text-align: center;
+    font-size:xx-large;
+    color: chartreuse;
+    background-color: blueviolet;
+}
+address{
+    background-color: gray;
+    color: blue;
+}
+p{
+    text-align: justify;
+    
+
+}
+button :hover{
+    
+    color: blue;
+    background-color: white;
+    border: 5px solid #008CBA;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    
+}
