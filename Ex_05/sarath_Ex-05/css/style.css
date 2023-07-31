@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+}
+
+.MAIN {
+    border: 1px solid rgb(224, 221, 221);
+    padding: 20px;
+    box-sizing: content-box;
+    width: 350px;
+    height: 370px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 0px;
+}
+span{
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+h3{ 
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+}   
+
+input{
+    width: 345px;
+    height: 55px;
+    border-radius: 5px;
+    border-width: 0.1px;
+    border: 1px solid rgb(224, 221, 221);
+}
+
+select{
+    margin-top: 8px;
+    margin-left: -30px;
+    border: none;
+    font-size:12px;
+}
+
+a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;   
+}
+
+button{
+    background-color: rgb(63, 63, 225);
+    color: white;
+    width: 75px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif
+}
