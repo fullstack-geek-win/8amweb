@@ -1,0 +1,40 @@
+body{
+     background-color: coral;  
+}
+.box div{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+   border: solid black;
+   font-size: 2rem;  
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas:
+    "h h h "
+    "s1 b1 s2"
+    "f f f "
+    
+    ;
+}
+.header{
+    grid-area: h;
+}
+
+.footer{
+    grid-area: f;
+}
+.side1{
+    grid-area: s1;
+}
+.body1{
+    grid-area: b1;
+}
+.side2{
+    grid-area: s2;
+}
+.text{
+    text-align: center;
+}
