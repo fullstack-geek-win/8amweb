@@ -1,0 +1,43 @@
+Today Topic
+-----------
+
+1. Website Layout using HTML Table
+Header
+Left Menu
+Main Content
+Ads
+Footer
+
+	HTML Table -> CSS Grid
+	
+	
+2. Website Maria -> Dynamic navigation
+page 1
+======
+http://127.0.0.1:5501/
+details1.html
+?fname=Balaji
+&lname=Kasi
+&gender=male
+&dob=1977-05-17
+
+page 2
+======
+http://127.0.0.1:5501/details2.html?
+Email=balajik.pg%40gmail.com
+&phone=9600074577
+&jobfair=no
+	js code to add 1st page querystring
+
+Page 3
+======
+7 fields -> javascript code
+http://127.0.0.1:5501/
+details2.html?
+Email=balajik.pg%40gmail.com&
+phone=9600074577&
+jobfair=no&
+fname=Balaji&
+lname=Kasi&
+gender=male&
+dob=1977-05-17

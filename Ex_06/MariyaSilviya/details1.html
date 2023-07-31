@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="./details2.html" method="get"> 
+        
+         
+    
+         
+         <div>
+            <h4>Email Address<span style="color:red;">*</span></h4>
+            <input  type="text" name="Email" size="25" placeholder="Email">
+            </div>
+            <div>
+                <h4>Contact number<span style="color:red;">*</span></h4>
+                <input  type="text" name="phone" size="10" placeholder="Mobile">
+                </div>
+
+                <div>
+                    <br> <h4>Have you ever attended your career fair?<span style="color: red;">*</span></h4>
+                    <input type="radio" name="jobfair" id="jobfair1" value="yes">
+                    <label for="jobfair1">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="jobfair" id="jobfair2" value="no">
+                    <label for="jobfair2">No</label>
+                 </div>
+         <br>
+         <br>
+         <div style="text-align: center;">
+            <button type="reset" style="font-size: large";>Clear</button>&nbsp;<button type="submit" style="font-size: large";>Next</button>
+        </div>
+        <div>
+            <input type="hidden" id="fname" name="fname">
+            <input type="hidden" id="lname" name="lname">
+            <input type="hidden" id="gender" name="gender">
+            <input type="hidden" id="dob" name="dob">
+        </div>
+             
+     </form>
+     
+     <script src="./js/script.js"></script>
+</body>
+</html>

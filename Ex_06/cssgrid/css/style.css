@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "h h h h h h h"
+    "me con con con con ads ads"
+    "f f f f f f f"
+    ;
+}
+
+.header {
+    grid-area: h;
+}
+
+.menu {
+    grid-area: me;
+}
+
+.content {
+    grid-area: con;
+}
+
+.ads {
+    grid-area: ads;
+}
+
+.footer {
+    grid-area: f;
+}
+
