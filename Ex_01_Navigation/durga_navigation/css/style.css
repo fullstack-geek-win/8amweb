@@ -1,0 +1,43 @@
+body{
+    background-color:aqua;
+    color:black;
+}
+h1{
+    background-color:pink;
+    color:black;
+}
+
+td{
+    text-align:justify;
+    vertical-align:top;
+    color:black;
+}
+.menu{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      font: size 20px;;
+      width:18%;
+      background-color:-white;
+      color:black;
+}
+.menu td{
+    background-color:blueviolet;
+    color:black;
+    text-decoration-color: black;
+}
+.content{
+    width:82%;
+    background-color:white;
+    border:5px solid;
+}
+a{
+    text-decoration: none;
+}
+a :link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+        color:white;
+}
