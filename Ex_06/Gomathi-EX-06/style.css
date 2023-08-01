@@ -1,0 +1,14 @@
+body{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+form{
+    border: 5px solid black;
+   padding-left: 20px;
+   padding-bottom: 20px;
+}
+h1{
+    color:brown;
+    text-align: center;
+}
