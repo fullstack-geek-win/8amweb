@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="./details2.html" method="get"> 
+        
+         
+    
+         
+         <div>
+            <h4>Email Address<span style="color:red;">*</span></h4>
+            <input  type="text" name="Email" id="Email" size="25" placeholder="Email">
+            </div>
+            <div>
+                <h4>Contact number<span style="color:red;">*</span></h4>
+                <input  type="text" name="Mobile" id="Mobile" size="10" placeholder="Mobile">
+                </div>
+
+                <div>
+                    <br> <h4>Have you ever attended your career fair?<span style="color: red;">*</span></h4>
+                    <input type="radio" name="fairexp" id="fairexp1" value="Yes">
+                    <label for="fairexp1">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="fairexp"id="fairexp2" value="No">
+                    <label for="fairexp2">No</label>
+                 </div>
+         <br>
+         <br>
+         <div style="text-align: center;">
+            <button type="reset" style="font-size: large";>Clear</button>&nbsp;<button type="submit" style="font-size: large";>Next</button>
+
+        </div>
+        <div>
+            <input type="hidden" name="fname" id="fname">
+            <input type="hidden" name="lname" id="lname">
+            <input type="hidden" name="gender" id="gender">
+            <input type="hidden" name="dob" id="dob">
+        </div>
+             
+     </form>
+     <script src="./js/details1.js"></script>
+     
+</body>
+</html>

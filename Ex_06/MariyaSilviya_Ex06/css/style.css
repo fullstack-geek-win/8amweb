@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr,1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: 
+    "h h h h h"
+    "s m m m m"
+    "s f f f f";
+    grid-gap: 10px 20px;
+    
+
+}
+.heading{
+    grid-area: h;
+    border: 5px solid black;
+}
+.sidebar{
+    grid-area: s;
+    border: 5px solid black;
+}
+.main{
+    grid-area: m;
+    border: 5px solid black;
+}
+.footer{
+    grid-area: f;
+    border: 5px solid black;
+}
