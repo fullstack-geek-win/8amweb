@@ -1,0 +1,30 @@
+
+body{
+    width:30%;
+    border: 1px solid;
+    margin-left: 400px;
+    margin-top: 225px;
+}
+.create{
+    margin: auto;
+    max-width: 350px;
+}
+.google{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2,h3,h4{
+    text-align: center;
+}
+
+/*div{
+    text-align: center;
+}*/
+.right{
+    text-align:right;
+}
+input{
+    text-align: center;
+    width: 55%;
+}
