@@ -1,0 +1,19 @@
+body{
+    width:30%;
+    border: 1px solid;
+    margin-left: 400px;
+    margin-top: 225px;
+    text-align: center;
+}
+.dob{
+    margin: auto;
+}
+h2,h3,h4{
+    text-align: center;
+}
+.gender{
+    text-align: left;
+}
+.right{
+    text-align:right;
+}
