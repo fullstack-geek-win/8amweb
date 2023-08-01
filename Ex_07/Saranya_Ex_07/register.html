@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Register Page</title>
+</head>
+<body>
+	<p> Enter the below details to register in our website </p>
+
+	<form >
+		<label for="firstName">First Name: </label>
+			<input type="text" id="firstName" name="firstName" required><br>
+		<label for="lastName">Last Name: </label>
+			<input type="text" id="lastName" name="lastName"> <br>
+		<label for="dob">Date Of Birth: </label>
+			<input type="date" id="dob" name="dob" required><br>
+		<label for="email">Email: </label>
+			<input type="email" id="email" name="email" required>
+		Password:<input type="password" name="password" min="8">
+
+		Gender:<br>
+		<input type="radio" name="gender" value="Male"> Male
+		<input type="radio" name="gender" value="Female"> Female
+		<input type="radio" name="gender" value="Others"> Others<br>
+
+		Subject:<br>
+		<input type="checkbox" name="maths"> Maths<br>
+		<input type="checkbox" name="physics"> Physics<br>
+		<input type="checkbox" name="chemistry"> Chemistry<br>
+		<input type="checkbox" name="cs"> Computer Science<br>
+		
+
+		Sports:<br>
+		<select name="Sports">
+			<option value="Cricket">Cricket</option>
+			<option value="Football">Football</option>
+			<option value="Hockey">Hockey</option>
+		</select><br>
+
+		Address:<br>
+		<textarea id="address" name="address" rows="4" cols="40">
+
+		</textarea>
+		<br><br>
+<!-- Submit and reset buttons -->
+		<input type="submit" value="Register">
+		<input type="reset" value="Reset">
+	</form>
+	
+
+</body>
+</html>
