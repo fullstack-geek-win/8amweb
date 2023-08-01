@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <h3>Select your mode of payment</h3>
+    <form action="./js/script.js" method="get">
+   <div>
+    <Select name="payment mode" id="payment mode" >
+        <option value="select">--select--</option>
+    <option value="card payment">card payment</option>
+    <option value="Phonepe">phonepe</option>
+    <option value="Gpay">Gpay</option>
+</Select>
+<h3>card details</h3>
+
+    <div>
+        <label for="cardno">Card Number</label><br>
+        <input type="text" name="cardno" value=""><br><br>
+        <label for="expyear">Expyear</label>
+        <input type="month" name="Expyear" value="">
+        <label for="cvv">CVV</label>
+        <input type="password" name="CVV" value=""><br><br>
+        <label for="name">Card Holder name</label>
+        <input type="text" name="name" value=""><br><br>
+        <button type="submit">Make a payment</button>
+    
+    </div>
+
+    <script src="./js/script.js"></script>
+</form>
+   
+
+</body>
+</html>
