@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Online Food Delivery System</title>
+  <link href="https://fonts.googleapis.com/css?family=Lugrasimo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="header">Talabad</h1>
+  </header>
+
+  <div class="grid-container">
+    <div class="left-menu">
+      <ul>
+        <li><a href="index.html">Food Menu</a></li>
+        <li><a href="food-order.html">Food Order</a></li>
+        <li><a href="billing-payment.html" class="active">Bill Payment</a></li>
+      </ul>
+    </div>
+
+    <div class="billing-container">
+      <h2>Billing Address</h2>
+      <form id="billing-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div>
+          <label for="address">Address:</label>
+          <input type="text" id="address" required>
+        </div>
+        <div>
+          <label for="city">City:</label>
+          <input type="text" id="city" required>
+        </div>
+        <div>
+          <label for="zipcode">Zip Code:</label>
+          <input type="text" id="zipcode" required>
+        </div>
+        <div>
+          <label for="contact-number">Contact Number:</label>
+          <input type="tel" id="contact-number" required pattern="[0-9]{10}">
+        </div>
+        <button type="submit" id="complete-payment">Complete Payment</button>
+      </form>
+    </div>
+
+    <div class="right-ads">
+      <img src="https://source.unsplash.com/featured/?food" alt="Food Ad" class="food-banner">
+      <div class="slogan">Delicious Food Delivered to Your Doorstep</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Food Delivery System</p>
+  </footer>
+</body>
+<script src="js/custom.js"></script>
+<script src="js/billing-payment.js"></script>
+
+</html>

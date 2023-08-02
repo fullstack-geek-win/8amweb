@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Online Food Delivery System</title>
+  <link href="https://fonts.googleapis.com/css?family=Lugrasimo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="header">Talabad</h1>
+  </header>
+
+  <div class="grid-container">
+    <div class="left-menu">
+      <ul>
+        <li><a href="index.html">Food Menu</a></li>
+        <li><a href="food-order.html" class="active">Food Order</a></li>
+        <li><a href="billing-payment.html">Bill Payment</a></li>
+      </ul>
+    </div>
+
+    <div class="center-content">
+      <table>
+        <tr>
+          <th colspan="3">Salads</th>
+        </tr>
+        <tr>
+          <td class="menu-item">Caesar Salad</td>
+          <td class="menu-price">$9.99</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Caesar Salad" data-price="9.99">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu-item">Greek Salad</td>
+          <td class="menu-price">$7.49</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Greek Salad" data-price="7.49">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu-item">Caprese Salad</td>
+          <td class="menu-price">$6.99</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Caprese Salad" data-price="6.99">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu-item">Cobb Salad</td>
+          <td class="menu-price">$12.50</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Cobb Salad" data-price="12.50">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="3">Pappads</th>
+        </tr>
+        <tr>
+          <td class="menu-item">Plain Pappad</td>
+          <td class="menu-price">$1.99</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Plain Pappad" data-price="1.99">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu-item">Masala Pappad</td>
+          <td class="menu-price">$2.49</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Masala Pappad" data-price="2.49">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu-item">Spicy Pappad</td>
+          <td class="menu-price">$1.99</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Spicy Pappad" data-price="1.99">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">Soups</th>
+        </tr>
+        <tr>
+          <td class="menu-item">Tomato Soup</td>
+          <td class="menu-price">$5.99</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Tomato Soup" data-price="5.99">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu-item">Chicken Noodle Soup</td>
+          <td class="menu-price">$4.49</td>
+          <td>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-item="Chicken Noodle Soup" data-price="4.49">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+      <div class="cart-container">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="cart-total">$0.00</span></p>
+        <button id="proceed-to-pay">Proceed to Pay</button>
+      </div>
+    </div>
+
+    <div class="right-ads">
+      <img src="https://source.unsplash.com/featured/?food" alt="Food Ad" class="food-banner">
+      <div class="slogan">Delicious Food Delivered to Your Doorstep</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Food Delivery System</p>
+  </footer>
+</body>
+<script src="js/custom.js"></script>
+<script src="js/cart.js"></script>
+
+</html>

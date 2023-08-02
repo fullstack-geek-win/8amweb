@@ -1,0 +1,340 @@
+body {
+  font-family: 'Lugrasimo', cursive, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #ff6600;
+  background-image: url("https://img.freepik.com/free-photo/top-view-saffron-still-life-assortment_23-2149130024.jpg?w=900&t=st=1690997534~exp=1690998134~hmac=0fb334bafeb1adde7adc813c131a0935296f1c0c5565d22af54a50f3ed5e6fc1");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-slogan {
+  color: #f0ebe7;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr; 
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Add new styles for the left-side menu */
+
+.left-menu {
+  background-color: #333;
+  padding: 20px;
+  height: 100%;
+}
+
+.left-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-menu li {
+  margin-bottom: 10px;
+}
+
+.left-menu li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+/* Add styles for the currently selected link */
+
+.left-menu li a.active {
+  background-color: #ff6600;
+}
+
+.left-menu li a:hover {
+  background-color: #555;
+}
+
+.center-content {
+  max-width: 100%; /* Make the center content take the full width */
+  margin: 0 auto;
+  color: #fff;
+  background-image: url("https://img.freepik.com/free-photo/red-peppers-white-tabletop_23-2147700688.jpg?w=1060&t=st=1690990758~exp=1690991358~hmac=a3f07e0b1e4788c105c81b0d5abbb5da654669ed85d8836ee43104be1dd8cf13"); /* Add the background image URL here */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width:75%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ff6600;
+  color: #ff6600;
+}
+
+.menu-item {
+  font-size: 18px;
+  color: #333;
+}
+
+.menu-price {
+  text-align: right;
+  color: #333;
+  font-weight: bold;
+}
+
+.right-ads {
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative;
+}
+
+.right-ads img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.food-banner {
+  width: 100%;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.slogan {
+  position: absolute;
+  bottom: 20px; 
+  left: 20px; 
+  color: #ffffff;
+  font-size: 24px; 
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/** Food Order **/
+
+.add-to-cart {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #e65c00;
+}
+
+/* Styles for the cart container */
+
+.cart-container {
+  background-color: #fff;
+  color:#000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.cart-container h2 {
+  margin-bottom: 10px;
+  color:#ff6600;
+}
+
+.cart-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-container ul li {
+  margin-bottom: 5px;
+}
+
+#proceed-to-pay {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#proceed-to-pay:hover {
+  background-color: #ff9800;
+}
+
+/* Add styles for the "Remove" button */
+
+button.remove-from-cart {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 8px; 
+}
+
+button.remove-from-cart:hover {
+  background-color: #e65100;
+}
+
+/** Add Styles for the billing section */
+
+.billing-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.billing-container h2 {
+  text-align: center;
+}
+
+.billing-container form {
+  display: grid;
+  gap: 10px;
+  padding-right: 20px; 
+  display: grid;
+  gap: 10px;
+  text-align: left;
+}
+
+.billing-container label {
+  font-weight: bold;
+}
+
+.billing-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.billing-container button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto; 
+}
+
+.billing-container button:hover {
+  background-color: #e65100;
+}
+
+/* Order Success Page Specific Styles */
+
+h2 {
+  color: #ff6600;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.success-container {
+  background-color: #ffdca0; 
+  color: #ff6600;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.success-container h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.success-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#order-items {
+  font-size: 16px;
+}
+
+#order-total {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+button.continue-shopping {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button.continue-shopping:hover {
+  background-color: #e65c00;
+}
