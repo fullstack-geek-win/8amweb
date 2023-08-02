@@ -1,0 +1,42 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+    grid-template-areas:
+        "h h"
+        "m m"
+        "f f";
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.grid-container>div {
+    /*background-color: antiquewhite;*/
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-catering-menu-background-material-image_138550.jpg);
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header {
+    grid-area: h;
+    text-align: center;
+    font-size: larger;
+    color: lightpink;
+}
+
+.menu {
+    grid-area: m;
+    text-align: center;
+
+
+    color: white;
+}
+
+.footer {
+    grid-area: f;
+    text-align: center;
+    font-size: larger;
+    color: lightpink;
+}

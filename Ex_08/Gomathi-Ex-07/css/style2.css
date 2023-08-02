@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    border: 2px solid brown;
+    grid-template-areas:
+        "h h"
+        "m m"
+        "f f";
+
+    margin-right: 55%;
+    
+}
+
+.grid-container>div {
+    background-color:lightcyan;
+}
+
+.header {
+    grid-area: h;
+    text-align: center;
+    font-size: larger;
+    color: darkmagenta;
+    
+}
+
+.menu {
+    grid-area: m;
+    text-align: left;
+
+
+    color: black;
+}
+
+.footer {
+    grid-area: f;
+    text-align: center;
+}

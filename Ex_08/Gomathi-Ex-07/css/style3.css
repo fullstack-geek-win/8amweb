@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "h h h"
+        "m m m"
+        "c c c"
+        "f f f";
+}
+
+.grid-container>div {
+    background-color: lightpink;
+    margin-left: 35%;
+    margin-right: 45%;
+}
+
+.header {
+    grid-area: h;
+    text-align: center;
+    font-size: larger;
+    color: darkgreen;
+}
+
+.menu {
+    grid-area: m;
+    text-align: center;
+    color: black;
+}
+
+
+.footer {
+    grid-area: f;
+    text-align: center;
+    font-size: larger;
+    color: darkgreen;
+}
