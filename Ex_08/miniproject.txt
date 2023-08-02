@@ -1,0 +1,27 @@
+mini frontend project
+
+Food Order
+==========
+MenuLayer
+Food Menu -> insert
+Food Order -> HTML Form & controls
+Bill Payment -> 
+	bring food items from previous page (Food Order)
+	Calculate Total
+	add customer details
+	Submit -> Bill payment successfuly
+
+
+CSS GRID
+========
+Header -> Title
+1. Introduction -> background image big food terms 
+2. Food Order -> Select Food Items -> Navigate
+3. Bill Payment -> items qty prize subtotal
+					1			100
+									total
+4. Ads Menu
+Footer
+
+Apply CSS GRID
+
