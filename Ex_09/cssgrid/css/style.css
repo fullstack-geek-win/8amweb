@@ -1,0 +1,68 @@
+* {
+    font-size: 32px;
+}
+
+body {
+    background-color: steelblue;
+    font-size: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "h h h h h"
+    "me con con con ads"
+    "f f f f f"
+    ;
+}
+
+.header {
+    text-align: center;
+    grid-area: h;
+}
+
+.menu {
+    grid-area: me;
+}
+
+.content {
+    grid-area: con;
+}
+
+.ads {
+    grid-area: ads;
+}
+
+.footer {
+    text-align: center;
+    grid-area: f;
+}
+
+/* p {
+    text-align: justify;
+    font-size: smaller;
+    padding: 10px 10px 10px 10px;
+} */
+
+img {
+    width: 100%; 
+    height: auto;
+}
+
+/* .content {
+    font-size: 1em;
+} */
+
+.content h1 {
+    font-size: 1em;
+}
+
+.content p {
+    font-size: 2em;
+}
+
+span {
+    font-size: 3rem;
+}
