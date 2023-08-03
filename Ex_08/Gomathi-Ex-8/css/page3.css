@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+   grid-template-areas:
+        "h h h "
+        "m a a"
+        "f f f ";
+        }
+
+        .header{grid-area: h;
+text-align: center;
+color:darkgreen;
+font-size: xx-large;
+background-color:lightblue;
+}
+
+.menu {
+    grid-area: m;
+    text-align:left;
+     color:black;
+     background-color:bisque;}
+     
+    
+     .ads{grid-area:a;
+        color:white;
+        background-position:center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-image: url(../image/bg1.jpg);
+        padding-top: 20%;
+padding-left: 30px;
+        }
+        
