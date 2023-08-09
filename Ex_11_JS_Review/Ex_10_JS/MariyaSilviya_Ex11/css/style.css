@@ -1,0 +1,25 @@
+.input{
+    background-image: url(./1.jpg);
+    
+    background-size: cover;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin:100px auto;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.result{
+    color: white;
+    margin: 10px;
+    height: 30px;
+    width: auto;
+}
+.button{
+    padding: 16px;
+    border-radius: 12px;
+    
+    font-size: large;
+    font-weight: bold;
+    
+}
