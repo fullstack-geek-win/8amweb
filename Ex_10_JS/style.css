@@ -1,0 +1,47 @@
+.grid-container {
+  display: grid;
+  place-items: center;
+  row-gap: 20px;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  align-content: center;
+  background-color:#98c1d9;
+  align-content: center;
+ 
+  margin: 10% auto;
+  box-shadow: 5px 5px #c5c4c4;
+
+}
+
+.grid-container2 {
+  display: flex;
+}
+select{
+  text-align: center;
+  font-size: larger;
+  color: black;
+  height: 30px;;
+  border-radius: 5px;
+}
+input{
+  height: 36px;
+  border-radius: 5px;
+  border:none;
+  font-size: 24px;
+  text-align: center;
+}
+label{
+  font-size: 36px;
+}
+.flex-container{
+display: flex;
+margin: 5%;
+column-gap: 5px;
+align-items: center;
+}
+button{
+  font-size: 20px;
+  border-radius: 5px;
+}
