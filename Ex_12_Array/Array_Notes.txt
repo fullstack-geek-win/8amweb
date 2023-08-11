@@ -1,0 +1,16 @@
+Javascript Collection
+---------------------
+Array - Collection of data
+
+let i =10;
+let name="balaji";
+
+let i = [1, 2, 3];
+let names = ["name1", "name2", name3"]
+
+Types of Array
+--------------
+Single Dimensional Array
+Multi Dimensional Array
+
+
