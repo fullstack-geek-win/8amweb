@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <title>java script</title>
+   <style>
+    .box{
+    border:5px solid black;
+    border-radius: 5px;
+    margin: 100px auto;
+   margin-left: 40%;
+   margin-right: 40%;
+   text-align: center;
+   background-color:antiquewhite;
+}
+input{
+    width: 80%;
+    border-radius: 2px;
+    
+    
+}
+button{
+    border-radius: 2px;
+    margin: 5px 0px 15px;
+
+}
+option{border-radius: 2px;
+text-align: center;}
+   </style>
+</head>
+<body>
+    <div class="box">
+        
+        <select  id="measure" name="measure">
+            <option value="ctom">Centimeter to Meter</option>
+            <option value="ctoi">Centimeter to Inch</option>
+            <option value="ctof">Centimeter to Feet</option>
+            
+            </select>
+        <h2>Converter</h2>
+        <input type="text" id="txtInput">
+<button onclick="convert()">Convert</button>
+<div id="result">Result</div>
+    </div>
+    <script src="./script2.js"></script>
+</body>
