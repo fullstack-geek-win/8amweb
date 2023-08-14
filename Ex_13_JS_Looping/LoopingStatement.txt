@@ -1,0 +1,50 @@
+Javascript
+
+Looping statement
+
+foreach
+studentList 
+employeeList
+
+
+array
+for
+while
+do..while
+
+1-100
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+
+let name = "Tiger";
+for (let i=1; name!="Lion" ; j++)
+{
+	console.log("Welcome");
+	
+	if (i==11){
+		name = "Lion";
+	}
+	
+}
+
+for (initial value ; condition ; incremental/decremental value)
+for (let j=100; j>=0; j++) -> browser get crash
+100-1
+
+
+	
+initial value
+while (condition)
+{
+
+
+	incremental/decremental value
+}
