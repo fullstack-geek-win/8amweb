@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // let animals =
+      // [
+      //     "Tiger", "Lion", "Elephant",
+      //     "Fox", "Wolf", "Cheeta"
+      // ];
+
+      // for (let animal of animals)
+      //     console.log(animal);
+
+      // 2 dimentional arry collection
+      // let EmployeeList = [
+      //     [1, "Raghul", 12323.00, "Engineer"],
+      //     [2, "Gomathi", 20323.00, "HR"],
+      //     [3, "Ram", 30323.00, "Lead"]
+      // ];
+
+      // for (let row=0; row<=2; row++)
+      //     for (let data=0; data<=3; data++)
+      //         console.log(EmployeeList[row][data]);
+
+      // assign value
+      productList = [
+        { name: "phone", quantity: 1, price: 25000 },
+        { name: "TV", quantity: 1, price: 32000 },
+        { name: "SD Card", quantity: 1, price: 2000 }
+      ];
+
+      let nameitem = [];
+      let qty = [];
+      let priceitem = [];
+      for (let i = 0; i < 3; i++) {
+        nameitem[i] = productList[i].name;
+        qty[i] = productList[i].quantity;
+        priceitem[i] = productList[i].price;
+      }
+    
+      for (let i = 0; i < 3; i++) {
+        console.log(nameitem[i] + " - " + qty[i] + " - " + priceitem[i]);
+      }
+
+      
+      // for (let name of names) {
+      //     console.log(name);
+      // }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+For
+Nested For
+
+Array
+	Limitation - 0-99
+	For (int;cont;inc/dec) {}
+Collection
+	Unlimited - runtime
+	
+let numbers, names, employees, students
+
+Array Collection
+let animals = ["Tiger", "Lion", "Elephant", "Fox"];
+
+for .. of
+---------
+for (let animal of animals) {
+	console.log(animal);
+}
+
+ItemList with Key & value pair (JSON)
+------------------------------
+let animals = 
+[
+	"Tiger", "Lion", "Elephant", 
+	"Fox", "Wolf", "Cheeta"
+];
+for .. in
+---------
+for (let animal of animals) 
+	console.log(animal);
+
+2 dimentional array collection
+==============================
+let EmployeeList = [
+	[1, "Raghul", 12323.00, "Engineer"],
+	[2, "Gomathi", 20323.00, "HR"],
+	[3, "Ram", 30323.00, "Lead"]
+];
+
+for (let row=0; row<=2; row++)
+	for (let data=0; data<=3; data++)
+		console.log(EmployeeList[row][data]);
+
+
+
+
